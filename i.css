@@ -1,0 +1,62 @@
+#o {
+  width: 30%;
+  height: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 5px solid violet;
+  background-color: violet;
+  border-radius: 15px;
+}
+.shoesName {
+  font-size: 25px;
+  font-weight: bold;
+}
+img {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid violet;
+  border-radius: 15px;
+}
+.tag {
+  display: flex;
+  gap: 5px;
+}
+.tagContent {
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 5px;
+  margin-top: -10px;
+}
+#content {
+  border: 1px solid violet;
+}
+#cont {
+  padding: 20px;
+  background-color: violet;
+  border: 1px solid violet;
+  border-radius: 15px;
+}
+#lowerarea {
+  margin-top: 10px;
+  display: flex;
+  gap: 250px;
+}
+button {
+  width: 130px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  &:hover {
+    background-color: grey;
+    border: 1px solid grey;
+  }
+}
+#pvalue {
+  font-size: 20px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,28 @@
+::selection {
+  background-color: yellow;
+  color: red;
+}
+p::first-letter {
+  font-size: 30px;
+  color: blue;
+}
+button {
+  background-color: yellow;
+  color: white;
+  margin: auto;
+  &:hover {
+    background-color: blue;
+    color: black;
+    width: 500px;
+  }
+}
+div {
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 5px;
+}
+#i {
+  border: 1px doubledashed black;
+}
